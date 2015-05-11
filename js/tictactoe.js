@@ -95,3 +95,6 @@ $(document).ready(function(){
 //cats turn, dogs turn
 //meow, cat wins, etc
 //tie
+
+
+//if we have completed 9 turns and dont have a winner, then it's a tie

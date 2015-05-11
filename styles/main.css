@@ -1,5 +1,6 @@
 body{
   background-color:white;
+  margin-top:60px;
 }
 
 h1{
@@ -17,11 +18,11 @@ img{
 .pawprint{
   height:40px;
   width:60px;
-  padding:10px;
 }
 
 #board{
   margin:0 auto;
+  margin-top:30px;
   width:318px;
 }
 
@@ -38,4 +39,13 @@ img{
   height:100px;
   float:left;
   text-align:center;
+}
+
+#displaymsg{
+  margin-top:30px;
+  text-align:center;
+  font-family:arial;
+  font-size:20px;
+  color:#829970;
+
 }
