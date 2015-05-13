@@ -1,18 +1,59 @@
-body{
-  background-color:white;
-  margin-top:60px;
-}
-
-h1{
+/*
+#board{
+  width:400px;
+  height:400px;
   margin:0 auto;
-  text-align:center;
-  color:#829970;
-  font-family:arial;
+  margin-top:150px;
 }
 
-img{
-  height:100px;
-  width:100px;
+.row{
+  background-color:#d9ffbb;
+  height:133px;
+  width:399px;
+ }
+
+.square{
+  background-color:yellow;
+  border:3px solid white;
+  height:127px;
+  width:127px;
+  text-align:center;
+  float:left;
+}
+
+*/
+
+
+
+.container{
+  margin-top:70px;
+  /*border:10px solid black;*/
+}
+
+/*.row{
+  border:10px solid green;
+}
+
+.col-xs-6{
+  border:10px solid yellow;
+}*/
+
+
+.square{
+  background-color:#adefd1;
+  border:3px solid white;
+  height:194px;
+  margin:0;
+  padding:0;
+}
+
+#gametitle{
+  color:#df8312;
+  text-align:center;
+  font-size:50px;
+  padding-bottom:20px;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing:2px;
 }
 
 .pawprint{
@@ -20,32 +61,37 @@ img{
   width:60px;
 }
 
-#board{
-  margin:0 auto;
-  margin-top:30px;
-  width:318px;
+img{
+  height:194px;
+  width:189px;
 }
 
 
-.row{
-  background-color:#d9ffbb;
-  height:106px;
-  width:318px;
-}
-
-.square{
-  border: 3px solid white;
-  width:100px;
+.turn img{
   height:100px;
-  float:left;
+  width:100px;
+}
+
+.turn{
+  margin:0 auto;
   text-align:center;
 }
 
-#displaymsg{
-  margin-top:30px;
+#madeby{
+  font-family: 'Seaweed Script', cursive;
   text-align:center;
-  font-family:arial;
-  font-size:20px;
-  color:#829970;
+}
 
+h3{
+  color:#df8312;
+  font-family: 'Cabin', sans-serif;
+  font-size:30px;
+  text-align:center;
+  background-color:#adefd1;
+  letter-spacing:2px;
+}
+
+#buttonrow{
+  margin:0 auto;
+  width:100px;
 }
