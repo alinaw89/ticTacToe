@@ -46,15 +46,15 @@ $(document).ready(function(){
 
     if (getWinner(squareArray)){
       if(player === 1) {
-        alert("meow!")
+        $(".namechange").text("Meow").css("color", "red");
         } else {
-        alert("woof!");
+        $(".namechange").text("Woof");
         }
-        alert("You win!");
      }
       }
 
  });
+
 
 
 
@@ -71,7 +71,7 @@ $(document).ready(function(){
       else if (square[3] === players[i] && square[4] === players[i] && square[5] === players[i]){
       ret = true;
     } else if (square[6] === players[i] && square[7] === players[i] && square[8] === players[i]){
-      ret = true;
+      ret = true
     } else if (square[0] === players[i] && square[3] === players[i] && square[6] === players[i]){
       ret = true;
     } else if (square[1] === players[i] && square[4] === players[i] && square[7] === players[i]){
