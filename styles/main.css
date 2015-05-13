@@ -1,42 +1,8 @@
-/*
-#board{
-  width:400px;
-  height:400px;
-  margin:0 auto;
-  margin-top:150px;
-}
-
-.row{
-  background-color:#d9ffbb;
-  height:133px;
-  width:399px;
- }
-
-.square{
-  background-color:yellow;
-  border:3px solid white;
-  height:127px;
-  width:127px;
-  text-align:center;
-  float:left;
-}
-
-*/
-
-
 
 .container{
   margin-top:70px;
   /*border:10px solid black;*/
 }
-
-/*.row{
-  border:10px solid green;
-}
-
-.col-xs-6{
-  border:10px solid yellow;
-}*/
 
 
 .square{
