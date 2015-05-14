@@ -1,19 +1,26 @@
 # Tic Tac Toe by Nawal Ali
 
 
-//link to firebase
-//if you want to understand my code, heavily commented
+
+##Game Link
+https://alinaw89-tictactoe.firebaseapp.com
+
 
 ## Overview
 
-I rendered a tictactoe gameboard using HTML, CSS and Javascript. In order to play, the user will load the game in their browser using the index.html file. The user will then be able to play the game with another player. The game will notify the user when a player has won . It will also display if there is a tie (no win).
+I rendered a tictactoe gameboard using HTML5, CSS, Javascript, Bootstrap 3.3.4 and jQuery 2.1.3 for a General Assembly project. In order to play, the user will load the game in their browser by clicking the game link or loading the index.html file. The user will then be able to play. The game will notify the user when a player has won. It will also display if there is a tie (no win). Should the user have any questions on the code, please refer to the comments in the index.html and tictactoe.js files.
 
-## User Stories:
+
+## Approach Taken:
 
 User Story 1: User should see a tic tac toe board on the main page.
-User Story 2: User should be able to click the board and place a cat or a dog image in any space they choose.
-User Story 3: User should be able to alternate turns between cat image and dog image.
-User Story 4: User should be able to win if user selects three cat or dog images in a row.
+
+User Story 2: User should be able to click the board and place a Cat or a Dog image in any space they choose.
+
+User Story 3: User should be able to alternate turns between Cat image and Dog image.
+
+User Story 4: User should be able to win if user selects three Cat or Dog images in a row.
+
 User Story 5: Game should display a draw if there is no winner.
 
 
@@ -31,8 +38,5 @@ User Story 5: Game should display a draw if there is no winner.
 
 
 
-
-
-## HTML:
 
 

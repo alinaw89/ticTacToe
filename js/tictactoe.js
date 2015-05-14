@@ -22,6 +22,7 @@ var foundWinner = false;
 // Event that fires when the html has been loaded
 $(document).ready(function(){
   // Button click event that points to a function called resetGame
+  // Did not use resetGame() because that would load immediately after the html loads
   $("button").click(resetGame);
 
   // Beginning of square click handler and game loop
@@ -66,7 +67,7 @@ $(document).ready(function(){
         // If there is no winner and if the counter is to 8
       } else if (!foundWinner && count === 8){
         // No winner after 9 clicks, game over
-        $("h3").html("Game Over! No winner.");
+        $("h3").html("It's a tie! Game Over!");
       } else{
         // No winner and game not over so switch image for next player (dog or cat)
         $(".turn").html(players[1-player]);
