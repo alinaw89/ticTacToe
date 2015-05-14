@@ -1,3 +1,5 @@
+//check why woof or meow wont show after reset
+
 var player = 0;
 
 var players = ['<img src="http://cache1.asset-cache.net/xt/887210-001.jpg?v=1&g=fs1%7C0%7CTSIR%7C72%7C101&s=1">', '<img src="http://media-cache-ec0.pinimg.com/236x/3e/b7/c5/3eb7c5bbbda15079ed8c1b9c9741d846.jpg">'];
@@ -116,9 +118,9 @@ $(document).ready(function(){
       $(this).html("");
     });
       // Resets background, winner html and title
-      $("body").css("background-image", "none");
+    $("body").css("background-image", "none");
     $("h3").html("");
-    $("#gametitle").html('<img class="pawprint" src="http://www.nashvillewraps.com/images/large_stkno/ppc.jpg"/> Tic Tac Toe <img class="pawprint" src="http://www.nashvillewraps.com/images/large_stkno/ppc.jpg"/>');
+    $("#gametitle").html('<img class="pawprint" src="http://www.nashvillewraps.com/images/large_stkno/ppc.jpg"/>Tic Tac <span class="changename">Toe</span><img class="pawprint" src="http://www.nashvillewraps.com/images/large_stkno/ppc.jpg"/>');
     // Sets the counter back to 0
     count = 0;
     // Sets the board array to empty strings
@@ -129,7 +131,7 @@ $(document).ready(function(){
   function setBanner(player){
     if (player === 0){
       $(".changename").html("Meow").css("color", "red");
-    } else{
+    } else {
       $(".changename").html("Woof").css("color", "red");
     }
   }
@@ -140,7 +142,3 @@ $(document).ready(function(){
 
 });
 
-
-
-
-//i want the scoreboard to take count of which player is winning
