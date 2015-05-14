@@ -10,12 +10,13 @@
   <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="http://www.nashvillewraps.com/images/large_stkno/ppc.jpg" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <script src='https://alinaw89-tictactoe.firebaseio.com'></script>
+  <script src="https://alinaw89-tictactoe.firebaseio.com/"></script>
 
 </head>
 <body>
   <div class="container">
     <div class="row">
+      <!-- chose xs because it cascades up and remains horizontal -->
       <div class="col-xs-6 col-xs-offset-3" >
         <div class="row" id="gametitle"><img class="pawprint" src="http://www.nashvillewraps.com/images/large_stkno/ppc.jpg"/>Tic Tac <span class="changename">Toe</span><img class="pawprint" src="http://www.nashvillewraps.com/images/large_stkno/ppc.jpg"/></div>
         <div class="row turn"><img src="http://cache1.asset-cache.net/xt/887210-001.jpg?v=1&g=fs1%7C0%7CTSIR%7C72%7C101&s=1"/></div>
@@ -39,6 +40,10 @@
       </div>
 
     </div>
+  </div>
+
+  <div id="scoreboard">
+    <h2><span id="score">Scoreboard</span> Cat:  <span id="cat-score">0</span> Dog:  <span id="dog-score">0</span></h2>
   </div>
 
   <div><h2 id="madeby">Made by Nawal Ali</h2></div>

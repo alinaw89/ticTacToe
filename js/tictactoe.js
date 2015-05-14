@@ -6,6 +6,8 @@ var playerNames = ["Sir Meowington", "Sir Puppington"];
 
 var count = 0;
 
+var scores=[0,0];
+
 // Each element will have:
 //  an empty string if the corresponding square has NOT been selected.
 //  or, a cat image if a cat was selected
@@ -42,7 +44,7 @@ $(document).ready(function(){
         foundWinner = getWinner('cat');
         // Next time draw a dog
         drawCat = false; //drawcat is false so that next time we will draw a dog
-      }else{
+      } else {
         // Set the board item to 'dog' using the id from the square clicked
         board[boardIndex] = 'dog';
         // Is the dog a winner?
@@ -51,9 +53,12 @@ $(document).ready(function(){
         drawCat = true;
       }
 
-      if (foundWinner){
+      if(foundWinner){
         // Hey, either the cat or the dog won. So, show it's name
         $("h3").html("Winner: " + playerNames[player]);
+        addToScoreboard(player);
+        $("#cat-score").text(scores[0]);
+        $("#dog-score").text(scores[1]);
         // And show a background of paw prints indicating a winner
         $("body").css("background-image", "url('http://filme-carti.ro/wp-content/uploads/2014/05/urme-de-laba.jpg')");
         // Change banner to Meow or Woof
@@ -128,8 +133,13 @@ $(document).ready(function(){
     }
   }
 
+  function addToScoreboard(player){
+    scores[player]+=1;
+  }
+
 });
 
 
 
 
+//i want the scoreboard to take count of which player is winning
