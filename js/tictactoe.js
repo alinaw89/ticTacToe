@@ -8,9 +8,11 @@ var count = 0;
 
 // Each element will have:
 //  an empty string if the corresponding square has NOT been selected.
-//  a cat image if a cat was selected
-//  a dog image if a dog was selected
-var board = ['', '', '', '', '', '', '', '']; // Created empty board to track what squares have been clicked clicked
+//  or, a cat image if a cat was selected
+//  or, a dog image if a dog was selected
+
+// Created empty board to track what squares have been clicked clicked
+var board = ['', '', '', '', '', '', '', ''];
 var boardIndex;
 var drawCat = true;
 var foundWinner = false;
