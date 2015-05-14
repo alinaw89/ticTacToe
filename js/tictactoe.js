@@ -1,15 +1,15 @@
 var player = 0;
 
-var players=['<img src="http://www.cats.org.uk/uploads/images/pages/photo_latest14.jpg">', '<img src="http://i480.photobucket.com/albums/rr163/NinjaShade_04/HuskyPuppy.jpg">'];
+var players=['<img src="http://cache1.asset-cache.net/xt/887210-001.jpg?v=1&g=fs1%7C0%7CTSIR%7C72%7C101&s=1">', '<img src="http://media-cache-ec0.pinimg.com/236x/3e/b7/c5/3eb7c5bbbda15079ed8c1b9c9741d846.jpg">'];
 
-var playerNames=["Lord Meowsworth", "Sir Puppington"];
+var playerNames=["Sir Meowington", "Sir Puppington"];
 
 var count = 0;
 
 // Each element will have:
 //  a empty string if the corresponding square has NOT been selected.
-//  a X if a Cat was selected
-//  a O if a dog was selected
+//  a cat image if a Cat was selected
+//  a dog image if a dog was selected
 var board = ['', '', '', '', '', '', '', '']; //created empty board to track what squares have been clicked clicked
 var boardIndex;
 var drawCat = true;
