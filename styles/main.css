@@ -66,17 +66,15 @@ h3{
 }
 
 #scoreboard{
-  margin:0 auto;
   text-align:center;
-  margin-top:20px;
+  margin-top:22em;
+  margin-left:-3em;
   font-family: 'Cabin', sans-serif;
   letter-spacing:2px;
   font-size:20px;
   letter-spacing:2px;
   border-radius:10px;
-  float:left;
-  margin-top:-19em;
-  margin-left: 18px;
+  width:30%;
 }
 
 #madeby{
@@ -84,3 +82,4 @@ h3{
   text-align:center;
   margin-top:40px;
 }
+
