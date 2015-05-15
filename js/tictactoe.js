@@ -1,5 +1,3 @@
-//check why woof or meow wont show after reset
-
 var player = 0;
 
 var players = ['<img src="http://cache1.asset-cache.net/xt/887210-001.jpg?v=1&g=fs1%7C0%7CTSIR%7C72%7C101&s=1">', '<img src="http://media-cache-ec0.pinimg.com/236x/3e/b7/c5/3eb7c5bbbda15079ed8c1b9c9741d846.jpg">'];
