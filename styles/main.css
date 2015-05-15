@@ -1,7 +1,6 @@
 
 .container{
   margin-top:70px;
-  /*border:10px solid black;*/
 }
 
 
@@ -45,10 +44,10 @@ img{
   text-align:center;
 }
 
-#madeby{
-  font-family: 'Seaweed Script', cursive;
-  text-align:center;
-  margin-top:40px;
+
+#buttonrow{
+  margin:0 auto;
+  width:100px;
 }
 
 h3{
@@ -61,10 +60,6 @@ h3{
   border-radius:10px;
 }
 
-#buttonrow{
-  margin:0 auto;
-  width:100px;
-}
 
 #score{
   color:red;
@@ -79,6 +74,10 @@ h3{
   font-size:20px;
   letter-spacing:2px;
   border-radius:10px;
-
 }
 
+#madeby{
+  font-family: 'Seaweed Script', cursive;
+  text-align:center;
+  margin-top:40px;
+}

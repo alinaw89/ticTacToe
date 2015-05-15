@@ -1,5 +1,4 @@
-# Tic Tac Toe by Nawal Ali
-
+# Tic Tac Toe
 
 
 ##Game Link
